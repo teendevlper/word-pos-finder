@@ -1,0 +1,4 @@
+Sentence = input("Enter a sentence : ")
+Charpos = input("Enter any one word from the sentence to find its position : ")
+Find = Sentence.find(Charpos) 
+Find2 = Sentence.find(Charpos,Find + 2)
